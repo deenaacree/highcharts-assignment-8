@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset = "utf8">
+  <title>National and Regional Rape Cases</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"> </script>
+  <script src="js/highcharts.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="http://code.highcharts.com/modules/data.js"></script>
+  <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+  <script src="js/themes/grid-light.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat%7cRoboto+Condensed' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+
+<article>
+
+<header>
+
+<h1>An Analysis of National and Regional Rape Cases</h1>
+<p>By Deena Acree, University of Florida</p>
+
+</header>
+
+<section id="intro-paragraph">
+
+<p>While a discussion about rape is much more prevalent today on social media networks and in the news, the rate at which rape occurs has been on the decline since 1995. In addition, actual occurrences of rape continue to drop, even though the population of the United States is on the rise.</p>
+
+<p>In 2013, the FBI's Uniform Crime Reporting (UCR) Program revised the definition by which data about rape cases was collected. This definition was changed from only including forcible rape to encompassing any act that is committed without the consent of the victim, as well as attempts and assault to commit rape.</p>
+
+<p>This definition change has led to there being two different sets of figures for rape statistics in both 2013 and 2014. In both years, the revised definition of rape as a separate category was ten percent higher as a portion of the violent crime nationally than the "legacy definition", which is still included in the data even though the newer definition exists.</p>
+
+</section>
+
+<section>
+
+<h2>National Rape Cases</h2>
+
+<div id="first-chart-container">
+  <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+  <p>Source: FBI, ""<a href="https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2014/crime-in-the-u.s.-2014/tables/table-1">Crime in the United States, by Volume and Rate per 100,000 Inhabitants, 1995–2014</a>""</p>
+  <!-- Link to National Cases of Rape: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2014/crime-in-the-u.s.-2014/tables/table-1 -->
+</div>
+
+<p>The national average for the legacy definition of rape has been steadily declining over the past twenty years. The lowest year for reported rape cases was 2013, with 82,109 rape cases making up 25.9 percent of all violent crimes. The highest year for reported rape cases was 1995, with 97,420 rape cases making up 37.1 percent of all violent crimes.</p>
+
+<p>In order to assist in looking at the data provided below, it is important to see that reported cases of rape have been declining steadinly during the past 20 years, so any regional increases are distinctive and than the national average.In the data below, we will only be looking at the revised definiton of rape, as it constitutes the most accurate representation of the crime rate as a whole.</p>
+
+</section>
+
+<section>
+
+<h2>Regional Rape Cases</h2>
+
+<div id="second-chart-container">
+  <div id="container2" style="min-width: 310px; max-width: 600px; height: 400px; margin: 0 auto"></div>
+
+  <p>Source: FBI, "<a href="https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2014/crime-in-the-u.s.-2014/tables/table-4">Crime in the United States, Offense and Population Percent Distribution by Region, 2014</a>"</p>
+  <!-- Link to Regional Cases of Rape: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2014/crime-in-the-u.s.-2014/tables/table-4 -->
+</div>
+
+<p>There are many regional differences among the reported rape cases across the United States. These regions are Northeast, Midwest, South, and West.</p>
+
+<p>The Northeast region includes two subregions: New England and Middle Atlantic. In the New England subregion are the states Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont. The Middle Atlantic subregion includes New Jersey, New York, and Pennsylvania.</p>
+
+<p>The Midwest region also includes two subregions: East North Central and West North Central. The East North Central subregion includes Illinois, Indiana, Michigan, Ohio, and Wisconsin. In the West North Central subregion are the states of Iowa, Kansas, Minnesota, Missouri, Nebraska, North Dakota, and South Dakota.</p>
+
+<p>The region in the South encompasses three subregions: South Atlantic, East South Central, and West South Central. The South Atlantic subregion includes Delaware, the District of Columbia, Florida, Georgia, Maryland, North Carolina, South Carolina, Virginia, and West Virginia. East South Central includes the states of Alabama, Kentucky, Mississippi, and Tennessee. West South Central inclues Arkansas, Louisiana, Oklahoma, and Texas.</p>
+
+<p>Finally, the West region includes two subregions: Mountain and Pacific. The Mountain subregion includes Arizona, Colorado, Idaho, Montana, Nevada, New Mexico, Utah, and Wyoming. The Pacific subregion includes Alaska, California, Hawaii, Oregon, and Washington.</p>
+
+</section>
+
+</article>
+
+<script>
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Reported Rape Crimes in the United States'
+        },
+        subtitle: {
+            text: 'as a percentage of all violent crime per 100,000 Inhabitants, 1995–2014'
+        },
+        xAxis: {
+            title: {
+                text: 'Years'
+            },
+            categories: [
+                '1995',
+                '1996',
+                '1997',
+                '1998',
+                '1999',
+                '2000',
+                '2001',
+                '2002',
+                '2003',
+                '2004',
+                '2005',
+                '2006',
+                '2007',
+                '2008',
+                '2009',
+                '2010',
+                '2011',
+                '2012',
+                '2013',
+                '2014',
+            ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Percentage'
+            }
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+            footerFormat: '</table>',
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: 'Rape (revised definition)',
+            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35.9,36.6]
+
+        }, {
+            name: 'Rape (legacy definition)',
+            data: [37.1,36.3,35.9,34.5,32.8,32,31.8,33.1,32.3,32.4,31.8,31.6,30.6,29.8,29.1,27.7,27,27.1,25.9,26.4]
+
+        }]
+    });
+});
+
+$(function () {
+    // Create the chart
+    $('#container2').highcharts({
+        chart: {
+            type: 'pie'
+        },
+        title: {
+            text: 'Reported Rape Crimes in the United States'
+        },
+        subtitle: {
+            text: 'Offense and Population Percent Distribution by Region, 2014. Click the slices to view breakdowns.'
+        },
+        plotOptions: {
+            series: {
+                dataLabels: {
+                    enabled: true,
+                    format: '{point.name}: {point.y:.1f}%'
+                }
+            }
+        },
+
+        tooltip: {
+            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+            pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+        },
+        series: [{
+            name: "Brands",
+            colorByPoint: true,
+            data: [{
+                name: "Northeast",
+                y: 26.8,
+                drilldown: "Northeast"
+            }, {
+                name: "Midwest",
+                y: 41.2,
+                drilldown: "Midwest"
+            }, {
+                name: "South",
+                y: 37.3,
+                drilldown: "South"
+            }, {
+                name: "West",
+                y: 38.5,
+                drilldown: "West"
+            }]
+        }],
+        drilldown: {
+            series: [{
+                name: "Northeast",
+                id: "Northeast",
+                data: [
+                    ["New England", 30.7],
+                    ["Middle Atlantic", 25.4],
+                ]
+            }, {
+                name: "Midwest",
+                id: "Midwest",
+                data: [
+                    ["East North Central", 41.4],
+                    ["West North Central", 41],
+                ]
+            }, {
+                name: "South",
+                id: "South",
+                data: [
+                   ["South Atlantic", 34.2],
+                   ["East South Central", 37.4],
+                   ["West South Central", 42.4],
+                ]
+            }, {
+                name: "West",
+                id: "West",
+                data: [
+                   ["Mountain", 51.8],
+                   ["Pacific", 32.5],
+                   ["Puerto Rico", 1.6],
+                ]
+            }]
+        }
+    });
+});
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

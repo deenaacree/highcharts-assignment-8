@@ -1,0 +1,40 @@
+Page title: National and Regional Rape Cases
+
+Heading: An Analysis of National and Regional Rape Cases
+By Deena Acree, University of Florida
+
+While a discussion about rape is much more prevalent today on social media networks and in the news, the rate at which rape occurs has been on the decline since 1995. In addition, actual occurrences of rape continue to drop, even though the population of the United States is on the rise.
+
+In 2013, the FBI's Uniform Crime Reporting (UCR) Program revised the definition by which data about rape cases was collected. This definition was changed from only including forcible rape to encompassing any act that is committed without the consent of the victim, as well as attempts and assault to commit rape.
+
+This definition change has led to there being two different sets of figures for rape statistics in both 2013 and 2014. In both years, the revised definition of rape as a separate category was ten percent higher as a portion of the violent crime nationally than the "legacy definition", which is still included in the data even though the newer definition exists.
+
+
+Sub-Heading: National Rape Cases
+
+(insert chart here)
+Source: FBI, "Crime in the United States, by Volume and Rate per 100,000 Inhabitants, 1995–2014"
+Link to National Cases of Rape: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2014/crime-in-the-u.s.-2014/tables/table-1
+
+The national average for the legacy definition of rape has been steadily declining over the past twenty years. The lowest year for reported rape cases was 2013, with 82,109 rape cases making up 25.9 percent of all violent crimes. The highest year for reported rape cases was 1995, with 97,420 rape cases making up 37.1 percent of all violent crimes.
+
+In order to assist in looking at the data provided below, it is important to see that reported cases of rape have been declining steadinly during the past 20 years, so any regional increases are distinctive and than the national average.
+
+
+Sub-Heading: Regional Rape Cases
+
+(insert chart here)
+Source: FBI, "Crime in the United States, by Region, Geographic Division, and State, 2013–2014"
+Link to Regional Cases of Rape: https://www.fbi.gov/about-us/cjis/ucr/crime-in-the-u.s/2014/crime-in-the-u.s.-2014/tables/table-4
+
+There are many regional differences among the reported rape cases across the United States. These regions are Northeast, Midwest, South, and West.
+
+The Northeast region includes two subregions: New England and Middle Atlantic. In the New England subregion are the states Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont. The Middle Atlantic subregion includes New Jersey, New York, and Pennsylvania.
+
+The Midwest region also includes two subregions: East North Central and West North Central. The East North Central subregion includes Illinois, Indiana, Michigan, Ohio, and Wisconsin. In the West North Central subregion are the states of Iowa, Kansas, Minnesota, Missouri, Nebraska, North Dakota, and South Dakota.
+
+The region in the South encompasses three subregions: South Atlantic, East South Central, and West South Central. The South Atlantic subregion includes Delaware, the District of Columbia, Florida, Georgia, Maryland, North Carolina, South Carolina, Virginia, and West Virginia. East South Central includes the states of Alabama, Kentucky, Mississippi, and Tennessee. West South Central inclues Arkansas, Louisiana, Oklahoma, and Texas.
+
+Finally, the West region includes two subregions and a territory: Mountain, Pacific, and Puerto Rico. The Mountain subregion includes Arizona, Colorado, Idaho, Montana, Nevada, New Mexico, Utah, and Wyoming. The Pacific subregion includes Alaska, California, Hawaii, Oregon, and Washington. Puerto Rico is listed as its own subregion among the data.
+
+{end text}
